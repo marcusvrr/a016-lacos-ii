@@ -5,3 +5,8 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+for (let i in array){
+    for(let m=0;m<array[i].length;m++){
+        console.log(`Jogador ${i + 1}: ${array[i]}`)
+    }
+}
