@@ -8,6 +8,5 @@ const array = [
 for (let i in array){
     for(let m=0;m<array[i].length;m++){
         console.log(`Jogador ${i + 1}: ${array[i]}`)
-
     }
 }
